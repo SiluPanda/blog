@@ -1,5 +1,5 @@
 ---
-title: Ensemble learning: Bagging and Boosting
+title: Ensemble learning, Bagging and Boosting
 ---
 
 ### What is ensemble learning?
