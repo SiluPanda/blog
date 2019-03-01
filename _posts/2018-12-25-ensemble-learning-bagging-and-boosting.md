@@ -36,7 +36,7 @@ The Ensemble learning gives better results than a single classifier because, let
 
 ### Implementaion
 
-The source code for implemetation of above algorithm can be found at <https://github.com/SiluPanda/ensemble-learning-bagging-and-boosting>
+The source code for implementation of above algorithm can be found at <https://github.com/SiluPanda/ensemble-learning-bagging-and-boosting>
 
 
 
