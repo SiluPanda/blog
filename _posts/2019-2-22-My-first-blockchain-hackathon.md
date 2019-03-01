@@ -15,7 +15,7 @@ Going by the name, It is actually a chain of blocks. It is a growing list of rec
 So... what's so interesting about all these?
 Blockchain actually removes the complete ownership of someone over something by bringing decentralized apps.
 
-oh jeez!(How was rick and morty reference BTW? :P) What are decentralized apps now?
+oh jeez!(How was the rick and morty reference BTW? :P) What are decentralized apps now?
 Basically, decentralized apps (DApps) are such apps which run on P2P network of computers rather than on a single computer. To understand this better, let's dive into a real world example. We use apps like Facebook, uber, youtube etc. They all have a similarity that they are owned by someone or some organisation and the organisation holds the complete power to do any changes to the app, user data, policies etc. We often see a surge price on uber. What if, there is actually no surge and it is business tactic (which I hope not because I love uber as a company and this is just an example). Basically there is no transparency in such apps and and people can not know what's actually going on at the backend.
 
 DApps come into play solving this problem as they are made on some blockchain network and any changes in the app is verfied by majority of the poeple on the network. Generally, The network is resistant to changes.
