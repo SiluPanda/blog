@@ -22,7 +22,7 @@ DApps come into play solving this problem as they are made on some blockchain ne
 
 ### What involves in making a DApp?
 
-A DApp consists web apps and smart contracts. A smart contract is simply a contract but digital. It is written with solidity programming language. You can visit remix at < https://remix.ethereum.org > to try your hands on solidity programs. We can simply summerize a DApp to 60-70 percent of web developemnt and 30-40 percent of smart contract development.
+A DApp consists web apps and smart contracts. A smart contract is simply a contract but digital. It is written with solidity programming language. You can visit remix at <https://remix.ethereum.org> to try your hands on solidity programs. We can simply summerize a DApp to 60-70 percent of web developemnt and 30-40 percent of smart contract development.
 
 ### Our project:
 
@@ -35,7 +35,7 @@ This platform is intended to bridge that gap between the donor and the needy.
 
 ### Implementation:
 
-Our project can be found at < https://github.com/SiluPanda/CrypDonor >
+Our project can be found at <https://github.com/SiluPanda/CrypDonor>
 
 
 
