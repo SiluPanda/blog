@@ -8,9 +8,9 @@ The output of the perceptron is given by thresholding a linear function of the i
                                
 Let's say the vector of weights is W, and and d-dimensional data point is X, then the output of a perceptron can be described as:
 							
-							y = sign(W.X)
+y = sign(W.X)
 
-							where for P in set of real numbers, sign(P) = 1 if P >= 0
+where for P in set of real numbers, sign(P) = 1 if P >= 0
 																sign(P) = 0 if P < 0
 
 Sometimes, bias term is added and the output is given by y = sign(W.X + b), but the bias term can also be implemented by adding another dimension, i.e d+1 dimensions.
