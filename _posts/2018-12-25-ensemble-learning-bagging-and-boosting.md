@@ -34,7 +34,7 @@ The Algorithm for AdaBoost is:
 
 The Ensemble learning gives better results than a single classifier because, let's say we have 5 perceptrons in an ensemble learning and P is the probability of a point being mis_classified by a single perceptron. For a data point to get mis-classified in ensemble, it has to be mis-classified by atleast 3 of the perceptrons, the probabability of which is, p1 * p2 * p3 . This is significantly lesser than P in most of the cases. This argues the better performance of ensemble over single hypothesis.
 
-### Implementaion
+### Implementation
 
 The source code for implementation of above algorithm can be found at <https://github.com/SiluPanda/ensemble-learning-bagging-and-boosting>
 
