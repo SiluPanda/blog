@@ -2,7 +2,7 @@
 title: My first Blockchain Hackathon 
 ---
 
-I with two other amazing people participated in the I_Hack hackathon organized by E-cell, IIT Bombay in Jan 2019. The hackathon was of blockchain track and the participants were free to choose their own idea and work on it. For me, blockchain was a complete new track, because it is a emerging technology and generally college curriculams does not cover all this yet. I only had attended a workshop a week before the hackthon which was on making a sample toy DApp. However, I participated, looking forward to meet people, explore a new technology and have some goodies :P.
+I with two other amazing people participated in the I_Hack hackathon organized by E-cell, IIT Bombay in Jan 2019. The hackathon was of blockchain track and the participants were free to choose their own idea and work on it. For me, blockchain was a complete new track, because it is an emerging technology and generally college curriculams does not cover all these yet. I only had attended a workshop a week before the hackthon which was on making a sample toy DApp. However, I participated, looking forward to meet people, explore a new technology and have some goodies :P.
 
 ### My understanding of Blockchain
 
