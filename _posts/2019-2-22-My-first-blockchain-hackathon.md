@@ -2,7 +2,7 @@
 title: My first Blockchain Hackathon 
 ---
 
-I with two other amazing people participated in the I_Hack hackathon organized by E-cell, IIT Bombay in Jan 2019. The hackathon was of blockchain track and the participants were free to choose their own idea and work on it. For me, blockchain was a complete new track, because it is an emerging technology and generally college curriculams does not cover all these yet. I only had attended a workshop a week before the hackthon which was on making a sample toy DApp. However, I participated, looking forward to meet people, explore a new technology and have some goodies :P.
+I with two other amazing people participated in the I_Hack hackathon organized by E-cell, IIT Bombay in Jan 2019. The hackathon was of blockchain track and the participants were free to choose their own idea and work on it. For me, blockchain was a complete new track, because it is an emerging technology and generally college curriculums does not cover all these yet. I only had attended a workshop a week before the hackthon which was on making a sample toy DApp. However, I participated, looking forward to meet people, explore a new technology and have some goodies :P.
 
 ### My understanding of Blockchain
 
@@ -22,7 +22,7 @@ DApps come into play solving this problem as they are made on some blockchain ne
 
 ### What involves in making a DApp?
 
-A DApp consists web apps and smart contracts. A smart contract is simply a contract but digital. It is written with solidity programming language. You can visit remix at <https://remix.ethereum.org> to try your hands on solidity programs. We can simply summerize a DApp to 60-70 percent of web developemnt and 30-40 percent of smart contract development.
+A DApp consists web apps and smart contracts. A smart contract is simply a contract but digital. It is written with solidity programming language. You can visit remix at <https://remix.ethereum.org> to try your hands on solidity programs. We can simply summarize a DApp to 60-70 percent of web developemnt and 30-40 percent of smart contract development.
 
 ### Our project:
 
@@ -30,7 +30,7 @@ After rejecting 2 ideas half way in the development, Finally we decided to make 
 
 ### What problem it intended to solve?
 
-We donate money for some cause to a 3rd party crowdfunding website or NGO. We put our trust on the party that our fund is going reach the needy. However, we are not assured what actually happens and how much of it is actually reached to the person or the community.
+We donate money for some cause to a 3rd party crowdfunding website or NGO. We put our trust on the party that our fund is going to reach the needy. However, we are not assured what actually happens and how much of it is actually reaches to the people or the community.
 This platform is intended to bridge that gap between the donor and the needy.
 
 ### Implementation:
