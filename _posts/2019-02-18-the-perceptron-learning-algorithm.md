@@ -19,12 +19,12 @@ The perceptron can also be visualized as a single layer neural network, where th
 
 ### Algorithm
 <pre>
->k ← 1; w[k] ← 0. <br/>
->While there exists i ∈ {1, 2, . . . , n} such that y[i](w[k]·x[i] ) ≤ 0: <br/>
->	Pick an arbitrary j ∈ {1, 2, . . . , n} such that y j (w k · x j ) ≤ 0. <br/>
->		w[k+1] ← w[k]+ y[j] x[j]. <br/>
->		k ← k + 1 <br/>
->Return w[k] <br/>
+k ← 1; w[k] ← 0. <br/>
+While there exists i ∈ {1, 2, . . . , n} such that y[i](w[k]·x[i] ) ≤ 0: <br/>
+	Pick an arbitrary j ∈ {1, 2, . . . , n} such that y j (w k · x j ) ≤ 0. <br/>
+		w[k+1] ← w[k]+ y[j] x[j]. <br/>
+		k ← k + 1 <br/>
+Return w[k] <br/>
 
 </pre>
 
