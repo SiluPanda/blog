@@ -18,12 +18,15 @@ Sometimes, bias term is added and the output is given by y = sign(W.X + b), but 
 The perceptron can also be visualized as a single layer neural network, where the features are the neurons and the input vector W is the weight.
 
 ### Algorithm
->k ← 1; w[k] ← 0.
->While there exists i ∈ {1, 2, . . . , n} such that y[i](w[k]·x[i] ) ≤ 0:
->	Pick an arbitrary j ∈ {1, 2, . . . , n} such that y j (w k · x j ) ≤ 0.
->		w[k+1] ← w[k]+ y[j] x[j].
->		k ← k + 1
->Return w[k] 
+<pre>
+>k ← 1; w[k] ← 0. <br/>
+>While there exists i ∈ {1, 2, . . . , n} such that y[i](w[k]·x[i] ) ≤ 0: <br/>
+>	Pick an arbitrary j ∈ {1, 2, . . . , n} such that y j (w k · x j ) ≤ 0. <br/>
+>		w[k+1] ← w[k]+ y[j] x[j]. <br/>
+>		k ← k + 1 <br/>
+>Return w[k] <br/>
+
+</pre>
 
 The algorithm initially maintains a weight vector which is initailized to 0. If the weight vector already separates the different classes, all good, we are done. Else, it picks a arbitary misclassified point and updates the weight vector accordingly.
 
