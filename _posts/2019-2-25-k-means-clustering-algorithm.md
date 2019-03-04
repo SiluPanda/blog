@@ -41,7 +41,7 @@ Probabilty = (squared distance from the nearest already choosen centroids) / (su
 Here is a performance comparison between two methods from my course work:
 
 Dataset     |  Initialization | Average SSE  | Average Iterations
--------------------------------------------------------------------
+------------|-----------------|--------------|--------------------
    100.csv  |        forgy    |8472.63311469| 2.43
    100.csv  |        kmeans++ |8472.63311469| 2.0
   1000.csv  |        forgy    |21337462.2968| 3.28
