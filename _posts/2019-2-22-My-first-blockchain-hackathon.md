@@ -26,7 +26,7 @@ A DApp consists web apps and smart contracts. A smart contract is simply a contr
 
 ### Our project:
 
-After rejecting 2 ideas half way in the development, Finally we decided to make a crowdfunding/donation platform involving only P2P crypto-currency transactions. We imagined a futuristic idea where almost everyone has a hash code to send/receive cryptos and government or any authorised organisation makes a record of the financial status of of persons in a nummerical value (let's say between 1 - 10). And the database is populated with all the entries of person's hash code and the financial index. We had thought of adding more features to the data  like, cause of need for money, location/country etc. Based on the financial index and other algorithms, some profiles of the needy are shown on the homepage to the donor and he/she can choose and donate from them.
+After rejecting 2 ideas half way in the development, Finally we decided to make a crowdfunding/donation platform involving only P2P crypto-currency transactions. We imagined a futuristic idea where almost everyone has a hash code to send/receive cryptos and government or any authorised organisation makes a record of the financial status of persons in a nummerical value (let's say between 1 - 10). And the database is populated with all the entries of person's hash code and the financial index. We had thought of adding more features to the data  like, cause of need for money, location/country etc. Based on the financial index and other algorithms, some profiles of the needy are shown on the homepage to the donor and he/she can choose and donate from them.
 
 ### What problem it intended to solve?
 
