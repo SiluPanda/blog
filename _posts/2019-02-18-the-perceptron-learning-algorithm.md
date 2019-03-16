@@ -3,7 +3,7 @@ title: The Perceptron Learning Algorithm
 ---
 
 ### What is a Perceptron?
-The Perceptron is a parameterised function which takes a real-valed vector as input and gives a Boolean output. It was introduced by Rosenblatt over half a century ago.
+The Perceptron is a parameterised function which takes a real-valued vector as input and gives a Boolean output. It was introduced by Rosenblatt over half a century ago.
 The output of the perceptron is given by thresholding a linear function of the input vector. The parameters are the coefficients of the linear function. 
                                
 Let's say the vector of weights is W, and and d-dimensional data point is X, then the output of a perceptron can be described as:
