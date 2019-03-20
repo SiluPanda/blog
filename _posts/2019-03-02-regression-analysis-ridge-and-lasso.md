@@ -106,7 +106,7 @@ The derivative of the loss function and updation of weights for lasso is a bit c
 
 There is another regression called elastic net which combines the penalty of both lasso and ridge regression.
 
-### Anlysis of the methods:
+### Analysis of the methods:
 We can observe a fact that, Ridge can not zero out any weight where Lasso can. This is actually an advantage of Lasso because, it can remove the parameters which are not much relevent for the output. This actually makes our model more robust and needless to say, computationally, a little lighter. On the other hand, Ridge applies a heavy penalty over the weights by taking the squares.
 
 ### Sources for diving deep into this:
