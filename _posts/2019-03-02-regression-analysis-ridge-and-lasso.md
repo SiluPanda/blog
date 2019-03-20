@@ -1,5 +1,5 @@
 ---
-title: Regression analysis; Ridge and Lasso (incomplete...)
+title: Regression analysis; Ridge and Lasso
 ---
 
 ### What is regression analysis?
