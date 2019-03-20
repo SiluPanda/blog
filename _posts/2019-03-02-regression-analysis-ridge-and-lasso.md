@@ -2,7 +2,7 @@
 title: Regression analysis: Ridge and Lasso
 ---
 
-## What is regression analysis?
+### What is regression analysis?
 In the terms of statistical modeling, regression analysis refers to a technique of determining the relationship between variables. We consider two types of variables, dependent and independent. More specifically speaking, regression analysis deals with the behavoiur of a dependent variable w.r.t to an indepedent variable. Behaviour as in, how does it vary when an independent variable is changed keeping other independent variables constant.
 <br>
 oh jeez!(I am just too addicted to Rick and Morty) that is a whole lot of Mathematics.
@@ -10,7 +10,7 @@ oh jeez!(I am just too addicted to Rick and Morty) that is a whole lot of Mathem
 
 We can understand this by the simplest example, linear regression. Let's Bob is a real estate person and he has set of house sizes and their corresponding prices. Now, a client wants a price quote for a house with the given size expectation. Bob goes to his friend Paige, who is a math geek. She takes the data of size and price and fits a straight line. Now she gives an estimate of price quote by looking at the graph. Bob got impressed and buys her a chocolate. Win-win for everyone.
 
-### Linear Regression:
+#### Linear Regression:
 <pre>
 	Y = W * X <br>
 </pre>
