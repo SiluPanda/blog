@@ -44,7 +44,9 @@ Ridge reregression is quite similar to the linear regression, but here, instead 
 The later can be called as a penalty term. This method is called as Regularization. It is used to control the complexity of the function and avoid overfitting.
 Here is a code snippet for the gradient of the loss function:
 
-`def grad_ridge(W, X, Y, _lambda):
+<pre>
+
+def grad_ridge(W, X, Y, _lambda):
 	''' 
 	W = weight vector [D X 1]
 	X = input feature matrix [N X D]
@@ -58,8 +60,8 @@ Here is a code snippet for the gradient of the loss function:
 	D = W.shape[0]
 	N = X.shape[0]
 	grad_desc = (-2) * np.matmul(np.transpose(X), np.subtract(Y, np.matmul(X, W))) + 2 * _lambda * W
-	return grad_desc`
-
+	return grad_desc
+</pre>
 
 
 
