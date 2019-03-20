@@ -19,21 +19,51 @@ For the ease of the discussion (or maybe not :P), we will refer features as dime
 <br>
 For fitting a straight line, we minimize something called Sum Squared error (SSE). Let's our hypothesis is `h` .
 Then sum squared error can be written as: <br>
-<pre>
-	SSE = sum(Y[i] - h(X[i])) <br>
-</pre>
+
+> SSE = sum((Y[i] - h(X[i])^2) <br>
+
 Where, Y[i] denotes the i'th actual output and h(X[i]) is our predicted output for i'th data point. <br>
 Now, how do we traditionally minimize a function? <br>
 By taking partial derivatives w.r.t to variables and equating them to zero, right? <br>
 Similarly, here, we want to tune our weights. Let's inialize weights to something random, for example, all ones.
 Next, take partial drivative with respect to all weights, let's say we get `delta[k]` for k'th weight. <br>
 Now, update, the corresponding weight as:
-<pre>
-	W[k] = W[k] - alpha * delta[k] <br>
-</pre>
+
+> W[k] = W[k] - alpha * delta[k] <br>
+
 Here, `alpha` is the learning rate, it is upon us to choose an optimal learning rate. Note, that a smaller aplha can result in longer training time, and a larger alpha may miss out the minima. <br>
 We need to do the above step for every weights repeatedly for `max_interations` times. We can choose the maximum iteration or can define an convergence condition. <br>
-Here, convergence means, we can stop updating weights, when we a very insignificant difference than the previous weights.
+Here, convergence means, we can stop updating weights, when we get a very insignificant difference than the previous weights.
+
+### Ridge Regression:
+Ridge reregression is quite similar to the linear regression, but here, instead of minimizing the SSE, we introduce a newer function, called, loss fucntion and it is given by: <br>
+
+> Loss function = SSE + lamda (|W|^2)
+
+<br>
+The later can be called as a penalty term. This method is called as Regularization. It is used to control the complexity of the function and avoid overfitting.
+Here is a code snippet for the gradient of the loss function:
+
+`def grad_ridge(W, X, Y, _lambda):
+	''' 
+	W = weight vector [D X 1]
+	X = input feature matrix [N X D]
+	Y = output values [N X 1]
+	_lambda = scalar parameter lambda
+	Return the gradient of ridge objective function (||Y - X W||^2  + lambda*||w||^2 )
+	'''
+	X = X.astype(np.float32)
+	Y = Y.astype(np.float32)
+	W = W.astype(np.float32)
+	D = W.shape[0]
+	N = X.shape[0]
+	grad_desc = (-2) * np.matmul(np.transpose(X), np.subtract(Y, np.matmul(X, W))) + 2 * _lambda * W
+	return grad_desc`
+
+
+
+
+
 
 
 
