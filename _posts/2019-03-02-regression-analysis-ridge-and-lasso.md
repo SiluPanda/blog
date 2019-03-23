@@ -100,9 +100,9 @@ We need to repeat this process for a certain number of times, oh, `max_iteration
 ### Lasso regression:
 Lasso regression is too similar to ridge regression but the main difference lies in the loss function. The loss function for lasso is given by:
 
-> Loss = SSE + lambda * | W |
+> Loss = SSE + lambda * abs(W)
 
-The derivative of the loss function and updation of weights for lasso is a bit complex. I would give resources to that, if anyone wants dive deep into the Maths.
+Here, abs() function gives the absolute value (e.g. -1 and 1 gboth give 1). The derivative of the loss function and updation of weights for lasso is a bit complex. I would give resources to that, if anyone wants dive deep into the Maths.
 
 There is another regression called elastic net which combines the penalty of both lasso and ridge regression.
 
@@ -114,7 +114,7 @@ We can observe a fact that, Ridge can not zero out any weight where Lasso can. T
 To get a basic visualization of the idea of the ridge regression, [this](https://www.youtube.com/watch?v=Q81RR3yKn30) youtube video is quite helpful and is of beginner level. [This](https://www.youtube.com/watch?v=NGf0voTMlcs) is a very nice video on Lasso and [this](https://www.youtube.com/watch?v=1dKRdX9bfIo&t=256s)
 is for Elastic net.
 <br>
-[This](https://www.coursera.org/lecture/ml-regression/computing-the-gradient-of-the-ridge-objective-kvaqc) is an excellent video by University of Washington on coursera. I would highly recommend to watch [this](https://www.coursera.org/lecture/ml-regression/computing-the-gradient-of-the-ridge-objective-kvaqc) too, which dives deep into the derivation of gradient of Lasso regression.
+[This](https://www.coursera.org/lecture/ml-regression/computing-the-gradient-of-the-ridge-objective-kvaqc) is an excellent video by University of Washington on coursera. I would highly recommend to watch [this](https://www.coursera.org/lecture/ml-regression/deriving-the-lasso-coordinate-descent-update-6OLyn) too, which dives deep into the derivation of gradient of Lasso regression.
 
 ### Implementation:
 Checkout my implementation [here](https://github.com/SiluPanda/ridge-and-lasso-regression). If you have any question or just have something to say about the code, I would highly appreciate opening up an issue, so that we can discuss there.  
