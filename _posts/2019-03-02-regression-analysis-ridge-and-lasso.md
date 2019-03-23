@@ -102,7 +102,7 @@ Lasso regression is too similar to ridge regression but the main difference lies
 
 > Loss = SSE + lambda * abs(W)
 
-Here, abs() function gives the absolute value (e.g. -1 and 1 gboth give 1). The derivative of the loss function and updation of weights for lasso is a bit complex. I would give resources to that, if anyone wants dive deep into the Maths.
+Here, abs() function gives the absolute value (e.g. -1 and 1 both give 1). The derivative of the loss function and updation of weights for lasso is a bit complex. I would give resources to that, if anyone wants dive deep into the Maths.
 
 There is another regression called elastic net which combines the penalty of both lasso and ridge regression.
 
