@@ -66,8 +66,9 @@ def grad_ridge(W, X, Y, _lambda):
 We need to repeat this process for a certain number of times, oh, `max_iteration` again. Here is another code snippet doing that stuff.
  <br>
  <pre>
- 	def ridge_grad_descent(X, Y, _lambda, max_iter=30000, lr=0.00001, epsilon = 1e-4):
-	
+ 	
+def ridge_grad_descent(X, Y, _lambda, max_iter=30000, lr=0.00001, epsilon = 1e-4):
+
 	X 			= input feature matrix [N X D]
 	Y 			= output values [N X 1]
 	_lambda 	= scalar parameter lambda
@@ -90,7 +91,7 @@ We need to repeat this process for a certain number of times, oh, `max_iteration
 		return True
 
 	for i in range(max_iter):
-		
+
 		W_old = W.copy()
 		W -= lr * grad_ridge(W, X, Y, _lambda)
 		if isconverged(W_old, W, epsilon) == True:
